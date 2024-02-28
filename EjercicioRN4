@@ -1,0 +1,18 @@
+package ejerciciorn4;
+
+public class EjercicioRN4 {
+
+    public static void main(String[] args) {
+       double EdJuan = 9;
+       double EdAlberto, EdAna, EdMama;
+       EdAlberto = 2*(EdJuan/3);
+       EdAna = 4*(EdJuan/3);
+       EdMama = EdJuan + EdAlberto + EdAna;
+       System.out.println("Las edades son:");
+       System.out.println("Juan: "+EdJuan);
+       System.out.println("Alberto: "+EdAlberto);
+       System.out.println("Ana: "+EdAna);
+       System.out.println("Mama: "+EdMama);
+    }
+    
+}
