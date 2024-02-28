@@ -1,0 +1,17 @@
+package ejerciciopn12;
+
+public class EjercicioPN12 {
+
+    public static void main(String[] args) {
+        double HorasTrabajo, CostoHora, Retencion, SalarioBruto, SalarioNeto ;
+        HorasTrabajo = 48;
+        CostoHora = 5000;
+        SalarioBruto = HorasTrabajo*CostoHora;
+        Retencion = 0.125*SalarioBruto;
+        SalarioNeto = SalarioBruto - Retencion;
+        System.out.println("Salario bruto es de: "+SalarioBruto);
+        System.out.println("La retencion de fuente es de: "+Retencion);
+        System.out.println("Salario neto es de: "+SalarioNeto);
+    }
+    
+}
