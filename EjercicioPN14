@@ -1,0 +1,14 @@
+package ejerciciopn14;
+
+public class EjercicioPN14 {
+
+    public static void main(String[] args) {
+        double Num, Cuadrado, Cubo;
+        Num = 3;
+        Cuadrado = Math.pow(Num,2);
+        Cubo = Math.pow(Num,3);
+        System.out.println("El cuadrado del numero es: "+Cuadrado);
+        System.out.println("El cubo del numero es: "+Cubo);
+    }
+    
+}
