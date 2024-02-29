@@ -4,7 +4,7 @@ public class EjercicioPN12 {
 
     public static void main(String[] args) {
         double HorasTrabajo, CostoHora, Retencion, SalarioBruto, SalarioNeto ;
-        HorasTrabajo = 48;
+        HorasTrabajo = 48*4; //Horas de trabajo al mes
         CostoHora = 5000;
         SalarioBruto = HorasTrabajo*CostoHora;
         Retencion = 0.125*SalarioBruto;
